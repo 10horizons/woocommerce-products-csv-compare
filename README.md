@@ -10,4 +10,4 @@ Upload plugin folder to the `/wp-content/plugins/` directory, or go to `Dashboar
 ### A few things to note
 
 - The plugin assumes the CSV file you're comparing against has a header or column names (as it should!).
-- You could apply additional security measures like nonce etc. to improve security. 
+- You should apply additional security measures like nonce etc. to improve security, as it is admittedly, not the focus when I wrote this as I was developing on a local machine. 
