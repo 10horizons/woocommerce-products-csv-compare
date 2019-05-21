@@ -25,7 +25,7 @@ function thp_check_file() {
 	die();
 }
 add_action('wp_ajax_thp_check_file', 'thp_check_file'); 
-add_action('wp_ajax_nopriv_thp_check_file', 'thp_check_file');
+//add_action('wp_ajax_nopriv_thp_check_file', 'thp_check_file');
 
 
 function thp_wcpc_run_check() {
@@ -123,7 +123,7 @@ echo '</table>';
 die();
 }
 add_action('wp_ajax_thp_wcpc_run_check', 'thp_wcpc_run_check'); 
-add_action('wp_ajax_nopriv_thp_wcpc_run_check', 'thp_wcpc_run_check');
+//add_action('wp_ajax_nopriv_thp_wcpc_run_check', 'thp_wcpc_run_check');
 
 
 /*
