@@ -1,4 +1,4 @@
-# Missing Woocommerce Products Checker
+# Missing Woocommerce Product Checker
 
 Compare Woocommerce products in your WordPress site against products in CSV file, and see if there are missing products in your Woocommerce store. 
 
